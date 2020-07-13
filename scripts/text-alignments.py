@@ -66,5 +66,5 @@ plt.text(P[3,0]+epsilon, P[3,1]-epsilon, "(0,0)",
 plt.text(P[8,0]-epsilon, P[8,1]+epsilon, "(1,1)",
          color=color, ha="right", va="bottom", size="x-small")
 
-plt.savefig("../figures/text-alignments.pdf")
-# plt.show()
+#plt.savefig("../figures/text-alignments.pdf")
+plt.show()

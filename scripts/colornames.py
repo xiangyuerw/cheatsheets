@@ -54,4 +54,4 @@ fig.subplots_adjust(left=0, right=1,
                     hspace=0, wspace=0)
 
 plt.savefig("../figures/colornames.pdf")
-# plt.show()
+plt.show()

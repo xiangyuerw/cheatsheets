@@ -21,5 +21,5 @@ im = ax.imshow(Z, interpolation="nearest", cmap=cmap, vmin=0, vmax=2)
 cb = fig.colorbar(im, fraction=0.046, pad=0.04)
 cb.set_ticks([])
 
-plt.savefig("../figures/tip-colorbar.pdf")
-# plt.show()
+#plt.savefig("../figures/tip-colorbar.pdf")
+plt.show()

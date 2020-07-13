@@ -25,6 +25,7 @@ ax.set_xlim(0, 8), ax.set_xticks(np.arange(1,8))
 ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-step.pdf")
+#plt.show()
 ax.clear()
 
 # Violin plot
@@ -41,6 +42,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-violin.pdf")
+#plt.show()
 ax.clear()
 
 
@@ -64,6 +66,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-boxplot.pdf")
+#plt.show()
 ax.clear()
 
 # Barbs plot
@@ -79,6 +82,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-barbs.pdf")
+#plt.show()
 ax.clear()
 
 # Event plot
@@ -92,6 +96,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-event.pdf")
+#plt.show()
 ax.clear()
 
 # Errorbar plot
@@ -106,6 +111,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-errorbar.pdf")
+#plt.show()
 ax.clear()
 
 
@@ -122,6 +128,7 @@ ax.set_ylim(0, 8), ax.set_yticks(np.arange(1,8))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-hexbin.pdf")
+#plt.show()
 ax.clear()
 
 # Hist plot
@@ -134,6 +141,7 @@ ax.set_ylim(0, 80), ax.set_yticks(np.arange(1,80,10))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-hist.pdf")
+#plt.show()
 ax.clear()
 
 # Xcorr plot
@@ -148,5 +156,6 @@ ax.set_ylim(-.25, .25), ax.set_yticks(np.linspace(-.25,.25,9))
 ax.set_axisbelow(True)
 ax.grid(linewidth=0.125)
 plt.savefig("../figures/advanced-xcorr.pdf")
+#plt.show()
 ax.clear()
 

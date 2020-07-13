@@ -46,5 +46,5 @@ point(1-d+e, 1+d-e), point(0.5, 1+d-e), point(d-e, 1+d-e),
 
 plt.xlim(0,1), plt.ylim(0,1)
 
-plt.savefig("../figures/legend-placement.pdf")
-# plt.show()
+#plt.savefig("../figures/legend-placement.pdf")
+plt.show()

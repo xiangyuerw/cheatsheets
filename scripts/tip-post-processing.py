@@ -24,4 +24,4 @@ ax.text(0.5, 0.5, "Matplotlib", transform=ax.transAxes,
         ha="center", va="center", size=64, color="black")
 
 plt.savefig("../figures/tip-post-processing.pdf", dpi=600)
-# plt.show()
+plt.show()

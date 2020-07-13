@@ -36,5 +36,5 @@ ax.spines['left'].set_visible(False)
 ax.spines['top'].set_visible(False)
 
 plt.tight_layout()
-plt.savefig("../figures/tip-hatched.pdf")
-# plt.show()
+#plt.savefig("../figures/tip-hatched.pdf")
+plt.show()

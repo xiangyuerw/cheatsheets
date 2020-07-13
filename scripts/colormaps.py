@@ -63,4 +63,5 @@ for cmap in cmaps:
     """
     
     plt.savefig("../figures/colormap-%s.pdf" % cmap)
+    #plt.show()
     ax.clear()

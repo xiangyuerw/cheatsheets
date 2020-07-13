@@ -21,5 +21,5 @@ ax2.set_yticks(np.linspace(0.5, 1.0, 5))
 ax2.set_xticklabels([])
 ax2.set_yticklabels([])
 
-plt.savefig("../figures/tip-dual-axis.pdf")
+#plt.savefig("../figures/tip-dual-axis.pdf")
 plt.show()

@@ -21,4 +21,4 @@ colors = [cmap(i) for i in [.1,.3,.5,.7]]
 ax.hist(X, 2, density=True, histtype='bar', color=colors)
 
 plt.savefig("../figures/tip-color-range.pdf")
-# plt.show()
+plt.show()

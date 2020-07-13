@@ -24,5 +24,5 @@ plt.annotate("Annotation", (5.5,.75), (0.1,.75), size=16, va="center",
 plt.text( 5.5, 0.6, "xy\nycoords", size=10, va="top", ha="center", color=".5")
 plt.text( .75, 0.6, "xytext\ntextcoords", size=10, va="top", ha="center", color=".5")
 
-plt.savefig("../figures/annotate.pdf")
-# plt.show()
+#plt.savefig("../figures/annotate.pdf")
+plt.show()

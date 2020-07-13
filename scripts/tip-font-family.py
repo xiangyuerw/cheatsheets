@@ -44,5 +44,5 @@ for tick in ax.get_xticklabels(which='both'):
     tick.set_fontname("Roboto Condensed")
     
 plt.tight_layout()
-plt.savefig("../figures/tip-font-family.pdf", transparent=True)
-# plt.show()
+#plt.savefig("../figures/tip-font-family.pdf", transparent=True)
+plt.show()

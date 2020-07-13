@@ -69,4 +69,4 @@ plt.annotate(" ", (X[300],Y[300]), (X[250], -1), ha="center", va="center",
              arrowprops = {"arrowstyle" : "->", "color": "C1"})
 plt.tight_layout()
 plt.savefig("../figures/sine-annotate.pdf", dpi=100)
-# plt.show()
+#plt.show()

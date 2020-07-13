@@ -52,5 +52,5 @@ ax.text(X0[0]-0.25, y+0.2, "capstyle or dash_capstyle", family = "Source code pr
         size=14, ha="left", va="baseline")
 
 
-plt.savefig("../figures/linestyles.pdf", dpi=200)
-# plt.show()
+#plt.savefig("../figures/linestyles.pdf", dpi=200)
+plt.show()

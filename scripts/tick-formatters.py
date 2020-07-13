@@ -107,5 +107,5 @@ ax.text(0.0, 0.1, "ticker.PercentFormatter(xmax=5)",
 # bottom spine.
 fig.subplots_adjust(left=0.05, right=0.95, bottom=0.05, top=1.05)
 
-plt.savefig("../figures/tick-formatters.pdf", transparent=True)
-# plt.show()
+#plt.savefig("../figures/tick-formatters.pdf", transparent=True)
+plt.show()

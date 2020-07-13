@@ -15,7 +15,8 @@ for style in ['default'] + plt.style.available:
         ax.plot(X,Y)
         plt.title(style, family="Source Serif Pro", size=32)
         plt.tight_layout()
-        plt.savefig("../figures/style-%s.pdf" % style)
+        #plt.savefig("../figures/style-%s.pdf" % style)
+        plt.show()
         plt.close(fig)
 
 

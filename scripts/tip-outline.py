@@ -25,4 +25,5 @@ text = ax.text(0.5, 0.1, "Label", transform=ax.transAxes,
 text.set_path_effects([path_effects.Stroke(linewidth=5, foreground='white'),
                        path_effects.Normal()])
 plt.savefig("../figures/tip-outline.pdf")
+plt.show()
 

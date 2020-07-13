@@ -18,5 +18,5 @@ for ax, interp_method in zip(axs.flat, methods):
             transform=ax.transData, ha="center", va="center")
 
 plt.tight_layout()
-plt.savefig("../figures/interpolations.pdf", dpi=600)
+#plt.savefig("../figures/interpolations.pdf", dpi=600)
 plt.show()
